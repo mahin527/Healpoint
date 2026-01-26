@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ============ Meta tags =========== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="title" content="Healpoint - Modern Hospital & Medical Website Template">
+    <meta name="description"
+        content="Healpoint is a clean, modern and responsive hospital website template suitable for clinics, medical centers and healthcare professionals.">
+
+    <!-- ============== Favicon icon ============ -->
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon">
+
+    <!-- ============== Google font link ============ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- ============== Custom CSS link ============ -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- ============== Preload images ============ -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="./assets/images/hero-bg.png">
+
+    <title>Healpoint - Home</title>
+
+</head>
+
+<body id="top">
+    <!-- ============== Preloader ============ -->
+    <div class="preloader" data-preloader aria-hidden="true">
+        <div class="circle"></div>
+    </div>
+
+
+    <!-- ============== Header ============ -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="./assets/images/logo.png" alt="Healpoint" width="146" height="70">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="index.html" class="logo">
+                        <img src="./assets/images/logo.png" alt="Healpoint" width="136" height="56">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close-menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link title-md">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#doctors" class="navbar-link title-md">Doctors</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#services" class="navbar-link title-md">Services</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#blog" class="navbar-link title-md">Blog</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link title-md">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-pinterest"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-right">
+                <a href="#" class="btn has-before title-md">Make Appointment</a>
+
+                <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+            </div>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <!-- ============== Hero ============ -->
+            <section class="section hero" id="home" aria-label="home">
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle has-before" data-reveal="left">Welcome To Healpoint</p>
+                        <h1 class="headline-lg hero-title" data-reveal="left">Book Appointments With <br>
+                            Certified Doctors</h1>
+                        <div class="hero-card" data-reveal="left">
+                            <p class="title-lg card-text">
+                                Search doctors. clinics. hospitals. etc.
+                            </p>
+                            <div class="wrapper">
+                                <div class="input-wrapper title-lg">
+                                    <input type="search" name="location" placeholder="Enter location"
+                                        aria-label="Search by location" class="input-field">
+                                    <ion-icon name="location"></ion-icon>
+                                </div>
+                                <button class="btn has-before">
+                                    <ion-icon name="search"></ion-icon>
+                                    <span class="title-md">Find Now</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <figure class="hero-banner" data-reveal="right">
+                        <img src="./assets/images/hero-banner.png" alt="Hero Banner" width="590" height="517"
+                            class="w-100" loading="eager">
+                    </figure>
+                </div>
+            </section>
+
+            <!-- ============== Services ============ -->
+            <section class="service" id="services" aria-label="service">
+                <div class="container">
+                    <p class="section-subtitle title-lg has-after" id="about-label" data-reveal="left">
+                        Our Services
+                    </p>
+                    <h2 class="headline-md" data-reveal="left">Excellence in Every Service</h2>
+                    <ul class="service-list">
+                        <li>
+                            <div class="service-card" data-reveal="bottom">
+                                <div class="card-icon">
+                                    <img src="./assets/images/icon-1.png" alt="icon-1" width="71" height="71"
+                                        loading="lazy">
+                                </div>
+
+                                <h3 class="headline-sm card-title">
+                                    <a href="#">Psychiatry</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Expert mental health care with certified specialists.
+                                </p>
+
+                                <button class="btn-circle" aria-label="read more about psychiatry">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </button>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card" data-reveal="bottom">
+                                <div class="card-icon">
+                                    <img src="./assets/images/icon-2.png" alt="icon-2" width="71" height="71"
+                                        loading="lazy">
+                                </div>
+
+                                <h3 class="headline-sm card-title">
+                                    <a href="#">Gynecology</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Personalized therapy plans for lasting wellness.
+                                </p>
+
+                                <button class="btn-circle" aria-label="read more about Gynecology">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </button>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card" data-reveal="bottom">
+                                <div class="card-icon">
+                                    <img src="./assets/images/icon-3.png" alt="icon-3" width="71" height="71"
+                                        loading="lazy">
+                                </div>
+
+                                <h3 class="headline-sm card-title">
+                                    <a href="#">Pulmonology</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Holistic healing with trusted professionals.
+                                </p>
+
+                                <button class="btn-circle" aria-label="read more about Pulmonology">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </button>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card" data-reveal="bottom">
+                                <div class="card-icon">
+                                    <img src="./assets/images/icon-4.png" alt="icon-4" width="71" height="71"
+                                        loading="lazy">
+                                </div>
+
+                                <h3 class="headline-sm card-title">
+                                    <a href="#">Orthopedics</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Confidential care that empowers your journey.
+                                </p>
+
+                                <button class="btn-circle" aria-label="read more about Orthopedics">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- ============== About ============ -->
+            <section class="section about" aria-labelledby="about-label">
+                <div class="container">
+                    <div class="about-content">
+                        <p class="section-subtitle title-lg has-after" id="about-label" data-reveal="left">
+                            About Us
+                        </p>
+                        <h2 class="headline-md" data-reveal="left">Experienced Workers</h2>
+                        <p class="section-text" data-reveal="left">
+                            Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, a porta ante lectus
+                            dapibus est. Aliquam
+                        </p>
+
+                        <ul class="tab-list" data-reveal="left">
+                            <li>
+                                <button class="tab-btn active" data-tab="vision">
+                                    Vision
+                                </button>
+                            </li>
+                            <li>
+                                <button class="tab-btn" data-tab="mission">
+                                    Mission
+                                </button>
+                            </li>
+                            <li>
+                                <button class="tab-btn" data-tab="strategy">
+                                    Strategy
+                                </button>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content" data-reveal="left">
+                            <p class="tab-text active" id="vision">Our vision is to provide the best quality service.
+                            </p>
+                            <p class="tab-text" id="mission">Our mission is to ensure customer satisfaction.</p>
+                            <p class="tab-text" id="strategy">Our strategy is to get the job done with experienced
+                                workers.</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <ul class="about-list">
+                                <li class="about-item" data-reveal="left">
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <span class="span">Sonsectetur adipisicing elit</span>
+                                </li>
+                                <li class="about-item" data-reveal="left">
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <span class="span">Exercitation ullamco laboris</span>
+                                </li>
+                                <li class="about-item" data-reveal="left">
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <span class="span">Eiusmod tempor incididunt</span>
+                                </li>
+                                <li class="about-item" data-reveal="left">
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <span class="span">Aolore magna aliqua</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <figure class="about-banner" data-reveal="right">
+                        <img src="./assets/images/about-banner.png" alt="about-banner" width="554" height="678"
+                            class="w-100" loading="lazy">
+                    </figure>
+                </div>
+            </section>
+
+            <!-- ============== Why choose us ============ -->
+            <section class="section why-choose-us" aria-labelledby="why-choose-us-label">
+                <div class="container">
+                    <div class="heading">
+                        <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">Why Choose Us </p>
+                        <h2 class="headline-md" data-reveal="left">Compassionate Care You Can Trust</h2>
+                    </div>
+
+                    <div class="why-choose-wrapper">
+
+                        <div class="features-col left-col">
+                            <div class="feature" data-reveal="left">
+                                <div class="feature-icon">
+                                    <ion-icon name="accessibility-outline"></ion-icon>
+                                </div>
+                                <div class="feature-text">
+                                    <h3 class="headline-sm card-title">Qualified Doctors</h3>
+                                    <p class="card-text">Highly compassionate specialists with years of proven
+                                        expertise.</p>
+                                </div>
+                            </div>
+                            <div class="feature" data-reveal="left">
+                                <div class="feature-icon">
+                                    <ion-icon name="medkit-outline"></ion-icon>
+                                </div>
+                                <div class="feature-text">
+                                    <h3 class="headline-sm card-title">Modern Equipment</h3>
+                                    <p class="card-text">Advanced technology ensuring accurate diagnosis and treatment.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="center-image" data-reveal="bottom">
+                            <img src="./assets/images/why-choose-us.png" alt="why choose us">
+                        </div>
+
+                        <div class="features-col right-col">
+                            <div class="feature" data-reveal="right">
+                                <div class="feature-icon">
+                                    <ion-icon name="timer-outline"></ion-icon>
+                                </div>
+                                <div class="feature-text">
+                                    <h3 class="headline-sm card-title">24/7 Emergency Care</h3>
+                                    <p class="card-text">Immediate support whenever you need urgent medical attention.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature" data-reveal="right">
+                                <div class="feature-icon">
+                                    <ion-icon name="pulse-outline"></ion-icon>
+                                </div>
+                                <div class="feature-text">
+                                    <h3 class="headline-sm card-title">Patient-Centered Service</h3>
+                                    <p class="card-text">Personalized care plans designed for your comfort and recovery.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ============== Listing ============ -->
+            <section class="section listing" id="doctors" aria-labelledby="listing-label">
+                <div class="container">
+                    <ul class="grid-list">
+                        <li>
+                            <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">
+                                Doctors Listig
+                            </p>
+                            <h2 class="headline-md" data-reveal="left">Browse by specialist</h2>
+                        </li>
+
+                        <li>
+                            <div class="listing-card" data-reveal="bottom">
+                                <div class="card-icon">
+                                    <img src="./assets/images/icon-1.png" alt="icon-1" width="71" height="71"
+                                        loading="lazy">
+                                </div>
+
+                                <div>
+                                    <h3 class="headline-sm card-title">Psychiatry</h3>
+                                    <p class="card-text">Porta velit</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="listing-card" data-reveal="bottom">
+                                <div class="card-icon">
+                                    <img src="./assets/images/icon-2.png" alt="icon-2" width="71" height="71"
+                                        loading="lazy">
+                                </div>
+
+                                <div>
+                                    <h3 class="headline-sm card-title">Gynecology</h3>
+                                    <p class="card-text">Mattis augue</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="listing-card" data-reveal="bottom">
+                                <div class="card-icon">
+                                    <img src="./assets/images/icon-3.png" alt="icon-3" width="71" height="71"
+                                        loading="lazy">
+                                </div>
+
+                                <div>
+                                    <h3 class="headline-sm card-title">Pulmonology</h3>
+                                    <p class="card-text">Mauris laoreet</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="listing-card" data-reveal="bottom">
+                                <div class="card-icon">
+                                    <img src="./assets/images/icon-4.png" alt="icon-4" width="71" height="71"
+                                        loading="lazy">
+                                </div>
+
+                                <div>
+                                    <h3 class="headline-sm card-title">Orthopedics</h3>
+                                    <p class="card-text">Convallis vulputate</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="listing-card" data-reveal="bottom">
+                                <div class="card-icon">
+                                    <img src="./assets/images/icon-5.png" alt="icon-5" width="71" height="71"
+                                        loading="lazy">
+                                </div>
+
+                                <div>
+                                    <h3 class="headline-sm card-title">Pediatrics</h3>
+                                    <p class="card-text">Posuere maecenas</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="listing-card" data-reveal="bottom">
+                                <div class="card-icon">
+                                    <img src="./assets/images/icon-6.png" alt="icon-6" width="71" height="71"
+                                        loading="lazy">
+                                </div>
+
+                                <div>
+                                    <h3 class="headline-sm card-title">Osteology</h3>
+                                    <p class="card-text">Nisi nullam
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="listing-card" data-reveal="bottom">
+                                <div class="card-icon">
+                                    <img src="./assets/images/icon-7.png" alt="icon-7" width="71" height="71"
+                                        loading="lazy">
+                                </div>
+
+                                <div>
+                                    <h3 class="headline-sm card-title">Pediatrics</h3>
+                                    <p class="card-text">Posuere maecenas</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- ============== BLOG ============ -->
+            <section class="section blog" id="blog" aria-labelledby="blog-label">
+                <div class="container">
+                    <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
+                        News & Article
+                    </p>
+
+                    <h2 class="section-title headline-md text-center" data-reveal="bottom">Latest Articles</h2>
+
+                    <ul class="grid-list">
+                        <li>
+                            <div class="blog-card has-before has-after" data-reveal="bottom">
+                                <div class="meta-wrapper">
+                                    <div class="card-meta">
+                                        <ion-icon name="person-outline"></ion-icon>
+                                        <span class="span">By Admin</span>
+                                    </div>
+
+                                    <div class="card-meta">
+                                        <ion-icon name="folder-outline"></ion-icon>
+                                        <span class="span">Specialist</span>
+                                    </div>
+                                </div>
+
+                                <h3 class="headline-sm card-title">Could intermittent fasting reduce breast cancer</h3>
+
+                                <time datetime="2026-01-10" class="title-sm date">10 January, 2026</time>
+
+                                <p class="card-text">
+                                    Recent studies suggest that intermittent fasting may help regulate insulin levels
+                                    and reduce inflammation, two factors closely linked to breast cancer risk.
+                                    Researchers are exploring how controlled eating windows could support hormone
+                                    balance and improve cellular repair mechanisms in women.
+                                </p>
+
+                                <a href="#" class="btn-text title-lg">Read More</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card has-before has-after" data-reveal="bottom">
+                                <div class="meta-wrapper">
+                                    <div class="card-meta">
+                                        <ion-icon name="person-outline"></ion-icon>
+                                        <span class="span">By Admin</span>
+                                    </div>
+
+                                    <div class="card-meta">
+                                        <ion-icon name="folder-outline"></ion-icon>
+                                        <span class="span">Specialist</span>
+                                    </div>
+                                </div>
+
+                                <h3 class="headline-sm card-title">Give children more autonomy during the pandemic</h3>
+
+                                <time datetime="2026-01-10" class="title-sm date">10 January, 2026</time>
+
+                                <p class="card-text">
+                                    Mental health experts emphasize that allowing children age-appropriate autonomy
+                                    during the pandemic can improve emotional resilience. Simple choices in daily
+                                    routines help reduce anxiety, build confidence, and support healthy psychological
+                                    development during prolonged periods of uncertainty.
+                                </p>
+
+                                <a href="#" class="btn-text title-lg">Read More</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card has-before has-after" data-reveal="bottom">
+                                <div class="meta-wrapper">
+                                    <div class="card-meta">
+                                        <ion-icon name="person-outline"></ion-icon>
+                                        <span class="span">By Admin</span>
+                                    </div>
+
+                                    <div class="card-meta">
+                                        <ion-icon name="folder-outline"></ion-icon>
+                                        <span class="span">Specialist</span>
+                                    </div>
+                                </div>
+
+                                <h3 class="headline-sm card-title">How do binge eating and drinking impact the liver?
+                                </h3>
+
+                                <time datetime="2026-01-10" class="title-sm date">10 January, 2026</time>
+
+                                <p class="card-text">
+                                    Binge eating combined with excessive alcohol consumption places significant stress
+                                    on the liver, increasing the risk of fatty liver disease. Over time, this pattern
+                                    can impair detoxification processes and lead to long-term metabolic and digestive
+                                    complications.
+                                </p>
+
+                                <a href="#" class="btn-text title-lg">Read More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- ============== Footer ============ -->
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="section footer-top">
+                <div class="footer-brand" data-reveal="bottom">
+
+                    <a href="index.html" class="logo">
+                        <img src="./assets/images/logo.png" alt="Healpoint" width="146" height="70" loading="lazy">
+                    </a>
+
+                    <ul class="contact-list has-after">
+                        <li class="contact-item">
+                            <div class="item-icon">
+                                <ion-icon name="mail-open-outline"></ion-icon>
+                            </div>
+
+                            <div>
+                                <p>Main Email : <a href="mailto:contact@website.com"
+                                        class="contact-link">contact@website.com</a></p>
+                                <p>Inquiries : <a href="mailto:Info@mail.com" class="contact-link">Info@mail.com</a></p>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="item-icon">
+                                <ion-icon name="call-outline"></ion-icon>
+                            </div>
+
+                            <div>
+                                <p>Office Telephone : <a href="tel:0123456789" class="contact-link">0123456789</a></p>
+                                <p>Mobile : <a href="tel:000123456789" class="contact-link">000 1234 56789</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-list" data-reveal="bottom">
+                    <p class="headline-sm footer-list-title">
+                        About Us
+                    </p>
+
+                    <p class="text">
+                        We are a trusted healthcare provider committed to delivering compassionate medical care with
+                        certified specialists, modern facilities, and patient-centered services. </p>
+                    <address class="address">
+                        <ion-icon name="map-outline"></ion-icon>
+
+                        <span class="text">
+                            Secretariat Road, Shahbagh<br>
+                            Dhaka South City, Bangladesh.
+                        </span>
+                    </address>
+                </div>
+
+                <ul class="footer-list" data-reveal="bottom">
+                    <li>
+                        <p class="headline-sm footer-list-title">Services</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            Conditions
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            Listing
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            How It Works
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            What We Offer
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            Latest News
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list" data-reveal="bottom">
+                    <li>
+                        <p class="headline-sm footer-list-title">Useful Links</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            Conditions
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            Terms of Use
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            Our Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            Join as a Doctor
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            New Guests List
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text footer-link">
+                            The Team List
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="footer-list" data-reveal="bottom">
+                    <p class="headline-sm footer-list-title">
+                        Subscribe
+                    </p>
+
+                    <form action="" class="footer-form">
+                        <input type="email" name="email" placeholder="Email" class="input-field title-lg">
+
+                        <button type="submit" class="btn has-before title-md">Subscribe</button>
+                    </form>
+
+                    <p class="text">
+                        Get the latest updates via email. Any time you may unsubscribe
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="text copyright">
+                    &copy; Healpoint 2026 | All Rights Reserved by Mahin Hasan
+                </p>
+
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-google"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-pinterest"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-tiktok"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============== Back to top ============ -->
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up-circle-outline"></ion-icon>
+    </a>
+
+    <!-- ============== Custom JS link ============ -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- ============== Ion icon link ============ -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
