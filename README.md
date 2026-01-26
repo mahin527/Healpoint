@@ -30,11 +30,11 @@ healpoint/
 
 #### To use this template:
 
-2. Extract the ZIP file.
+1. Extract the ZIP file.
 
-3. Open index.html in your favorite web browser.
+2. Open index.html in your favorite web browser.
 
-4. To customize, edit the CSS variables in assets/css/style.css.
+3. To customize, edit the CSS variables in assets/css/style.css.
 
 
 ## 🛠️ Built With
