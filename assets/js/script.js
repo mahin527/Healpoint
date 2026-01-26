@@ -42,7 +42,7 @@ addEventOnElements(navTogglers, 'click', toggleNav);
 
 navbarLink.forEach(link => {
     link.addEventListener('click', () => {
-        // শুধুমাত্র যদি মোবাইল মেনু ওপেন থাকে (অর্থাৎ window width ১২০০ এর নিচে)
+        // Only if the mobile menu is open (i.e. window width below 1200)
         if (window.innerWidth < 1200) {
             navbar.classList.remove('active');
             overlay.classList.remove('active');
