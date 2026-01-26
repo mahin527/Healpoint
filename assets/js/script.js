@@ -38,13 +38,7 @@ const toggleNav = function () {
 
 addEventOnElements(navTogglers, 'click', toggleNav);
 
-navbarLink.forEach(link => {
-    link.addEventListener('click', () => {
-        navbar.classList.remove('active')
-        overlay.classList.remove('active')
-        document.body.classList.remove('nav-active')
-    })
-})
+addEventOnElements(navbarLink, 'click', toggleNav);
 
 // ======= Header & Back to top btn ======
 
