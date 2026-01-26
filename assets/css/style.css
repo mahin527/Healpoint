@@ -439,8 +439,8 @@ body.nav-active {
 }
 
 /* Navbar links smooth fade */
-.navbar-link,
-.social-link {
+.navbar .navbar-link,
+.navbar .social-link {
   opacity: 0;
   transform: translateY(-10px);
   transition: var(--transition-1);
