@@ -38,7 +38,18 @@ const toggleNav = function () {
 
 addEventOnElements(navTogglers, 'click', toggleNav);
 
-addEventOnElements(navbarLink, 'click', toggleNav);
+// addEventOnElements(navbarLink, 'click', toggleNav);
+
+navbarLink.forEach(link => {
+    link.addEventListener('click', () => {
+        // শুধুমাত্র যদি মোবাইল মেনু ওপেন থাকে (অর্থাৎ window width ১২০০ এর নিচে)
+        if (window.innerWidth < 1200) {
+            navbar.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.classList.remove('nav-active');
+        }
+    });
+});
 
 // ======= Header & Back to top btn ======
 

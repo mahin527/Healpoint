@@ -1376,6 +1376,7 @@ body.nav-active {
   }
 
   .navbar {
+    display: flex !important;
     margin-inline-start: auto;
   }
 
