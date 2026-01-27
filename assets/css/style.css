@@ -577,6 +577,14 @@ body.nav-active {
   margin-block-start: 16px;
 }
 
+.hero-card .btn a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
 
 /*===========================================================*/
 /*===================== SERVICE SECTION =====================*/
@@ -1389,8 +1397,8 @@ body.nav-active {
     border-block-start: none;
   }
 
-  .navbar-link,
-  .social-link {
+  .navbar .navbar-link,
+  .navbar .social-link {
     opacity: 1;
     transform: none;
     pointer-events: auto;
