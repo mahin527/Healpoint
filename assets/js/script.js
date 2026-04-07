@@ -38,8 +38,6 @@ const toggleNav = function () {
 
 addEventOnElements(navTogglers, 'click', toggleNav);
 
-// addEventOnElements(navbarLink, 'click', toggleNav);
-
 navbarLink.forEach(link => {
     link.addEventListener('click', () => {
         // Only if the mobile menu is open (i.e. window width below 1200)
